@@ -1,0 +1,37 @@
+@media screen and (max-width:1024px) {
+    .page-1__body h1{
+        line-height: 1.2;
+    }
+}
+@media screen and (max-width:620px) {
+    .page-1{
+        height: 100%;
+        overflow: hidden;
+        /* overflow-x: visible; */
+        justify-content: flex-start;
+    }
+    #header-title{
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .nav{
+        font-size: 10px;
+        /* padding: 10px 0 10px 0; */
+    }
+    #main-title{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .container{
+        margin: 0 auto;
+    }
+    .social{
+        margin-top: 50%;
+        justify-content: space-between;
+    }
+    #for-hide{
+        display: none;
+    }
+}
